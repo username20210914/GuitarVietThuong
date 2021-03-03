@@ -1,0 +1,19 @@
+.chothuepianodien{
+    padding: 20px 45px 20px 45px;
+}
+.chothuepianodien > .khungx{
+    height: 2050px;
+    background-color: white;
+}
+.chothuepianodien > .khungx > h3{
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 90%;
+}
+.chothuepianodien > .khungx > p > a{
+    text-decoration: none;
+    color: #337ab7;
+}
+.chothuepianodien > .khungx > p > a:hover{
+    text-decoration: underline;
+}

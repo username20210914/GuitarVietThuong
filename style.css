@@ -1,0 +1,501 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    box-sizing: border-box;
+}
+header{
+    height: 40px;
+    background-color: #231f20;
+    position: relative;
+}
+.infoleft{
+    margin-left: 50px;
+}
+.infoleft > .menu {
+    list-style: none;
+}
+.infoleft > .menu > li{
+    display: inline-block;
+    margin-right: 50px;
+}
+.infoleft > .menu > li > img{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.infoleft > .menu > li > a{
+    line-height: 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 13pt;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.infoleft > .menu > li > a:hover{
+    text-decoration: underline;
+}
+/* Xong phần header bên trái ---- giờ đến bên phải */
+.inforight{
+    float: right;
+    width: 200px;
+}
+.inforight > a{
+    font-size: 13pt;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 40px;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 0;
+}
+.inforight > a:hover{
+    background-color: white;
+    color: gray;
+}
+/* XONG PHẦN BÊN PHẢI ---- GIỜ ĐẾN MENU + BANNER */
+nav{
+    height: 45px;
+    background-color: gold;
+    position: relative;
+}
+ nav >.logovt{
+
+    margin-left: 50px;
+}
+nav > .logovt > img{
+    float: left;
+    margin-right: 120px;
+}
+/* Xong phần logo ---- giờ đến menu */
+.vmenu{
+    position: relative;
+}
+.amenu{
+    list-style: none;
+
+}
+.amenu > li{
+    display: inline-block;
+    margin-right: 25px;
+}
+.amenu > li > a{
+    display: block;
+    font-size: 13pt;
+    font-weight: bolder;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 45px;
+    text-decoration: none;
+    color: black;
+}
+.amenu > li > a:hover{
+    background-color: white;
+    opacity: 50%;
+}
+/* Xong phần menu ----- giờ đến serch tìm kiếm */
+.serch{
+    float: right;
+    width: 350px;
+}
+.serch > input{
+    height: 30px;
+    width: 200px;
+    position: absolute;
+    top: 7px;
+    margin-left: 25px;
+    padding-left: 5px;
+    font-style: italic;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.serch > button{
+    position:absolute;
+    top: 10px;
+    right: 45px;
+    height: 25px;
+    width: 70px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: gold;
+    font-weight: bolder;
+    font-size: 12pt;
+}
+/* Xong phần serch */
+/* Đến phần banner */
+/* .banner{
+    margin-top: 5px;
+    height: 300px;
+    background-color: indigo;
+}
+.banner > img {
+    height: 100%;
+    width: 100%;
+} */
+/* Xong phần banner */
+/* Đến phầm menu con */
+.cmenu{
+    list-style: none;
+    display: none;
+    height: 150px;
+    width: 200px;
+    background-color: gold;
+    opacity: 80%;
+    position: absolute;
+}
+.cmenu > li{
+    display: block;
+    margin-bottom: 10px;
+}
+.cmenu > li > a{
+    display: block;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+.amenu > li:hover>.cmenu{
+    display: block;
+}
+.cmenu > li > a:hover{
+    background-color: white;
+    opacity: 80%;
+}
+.banner{
+    height: 300px;
+    background-color: gold;
+}
+.banner > img{
+    height: 100%;
+    width: 100%;
+}
+/* Xong phần banner */ 
+/* Tiếp đến là nội dung article */
+
+.container2{
+    box-sizing: border-box;
+    padding: 0  50px 0 50px;
+}
+article{
+    height: 2100px;
+    background-color: white;
+    margin-top: 300px;
+    position: relative;
+    padding-right: 20px;
+}
+.tieudesp{
+    height: 40px;
+    width: 18%;
+    background-color: gold;
+    border: 1px solid grey;
+    padding-left: 25px;
+    position: absolute;
+    top: 15px;
+
+}
+.tieudesp > a{
+    text-decoration: none;
+    color: black;
+    font-size: 14pt;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.boxsp{
+    float: left;
+    height: 330px; 
+    width: 22%;
+    background-color: white;
+    margin: 40px 0px 0px 0px;
+    border: 3px solid gold;
+    padding: 5px 5px 0px 5px;
+    margin-left: 19px;
+    position: relative;
+    overflow: hidden;
+}
+.boxsp > img{
+    margin-top: 5px;
+}
+.boxsp:hover > img{
+    transition: 0.5s;
+    transform: rotate(12deg);
+}
+.boxsp > a{
+    float: left;
+    font-size: 11pt;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    position: absolute;
+    left: 13px;
+    bottom: 35px;
+}
+.boxsp > p{
+    color: red;
+    font-weight: bold;
+    line-height: 100px;
+    margin-left: 10px;
+}
+.boxsp > b{
+    color: white;
+    background-color: orangered;
+    position: absolute;
+    top: 10px;
+}
+/* Xong phần sản phẩm đàn */
+/* Giờ thì vẫn là phần nội dung nhưng là thứ khác đó là phụ kiện */
+.pk{
+    height: 40px;
+    width: 13%;
+    background-color: gold;
+    border: 1px solid grey;
+    padding-left: 25px;
+    position: absolute;
+    bottom: 880px;
+}
+.pk > a{
+    float: left;
+    font-size: 11pt;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    line-height: 40px;
+}
+.boxpk{
+    float: left;
+    height: 240px;
+    width: 170px;
+    background-color: white;
+    border: 1px solid gold;
+    position: relative;
+    margin-left: 25px;
+    margin-top: 60px;
+    margin-bottom: -30px;
+    padding-left: 7px;
+}
+.boxpk > img{
+}
+.boxpk > a{
+    text-overflow: ellipsis;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 11pt;
+}
+.boxpk > p{
+    line-height: 25px;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+/* định dạng xong phụ kiện */
+/* Giờ đến css cho phần tin tức */
+h2{
+    position: absolute;
+    bottom: 320px;
+    float: left;
+    text-decoration: underline;
+    color: black;
+    font-weight: bolder;
+}
+.tintuc{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: 10px;
+}
+.tintuc > .boxtt{
+    float: left;
+    height: 300px;
+    width: 400px;
+    margin-left: 11px;
+    background-color: #e6e7e8;
+    border-bottom: 1px solid gray;
+    overflow: hidden;
+}
+
+.tintuc > .boxtt >.text{
+    padding: 0px 6px 0px 6px;
+
+}
+.boxtt > img{
+    display: block;
+}
+
+.boxtt >.text > a > h4{
+    float: left;
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 5px;
+
+}
+.boxtt > .text{
+    position: relative;
+}
+.boxtt > p{
+    font-size: 12pt;
+    margin-left: 5px;
+}
+.boxtt:hover img{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+/* Xongg phần css tin tức */
+/* Giò đến css cho phần footer */
+footer{
+    height: 400px;
+    background-color:olive;
+}
+.phanduoi{
+    width: 100%;
+    background-color: #e6e7e8 ;
+    height: 180px;
+    position: relative;
+}
+.boxlh{
+    background-color: #e6e7e8 ;
+    position: relative;
+}
+.boxlh > .lienhe
+{
+    width: 50%;
+    height: 178px;
+}
+.boxlh > .lienhe > h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    line-height: 50px;
+    margin-left: 50px;
+}
+.boxlh > .lienhe > p{
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.boxlh > .email > button{
+    margin-right: 50px;
+    height: 45px;
+    width: 120px;
+    border: none;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 90px;
+    left: 50px;
+}
+.boxlh > .hotline > button{
+    margin-right: 50px;
+    height: 45px;
+    width: 120px;
+    border: none;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 90px;
+    left: 190px;
+}
+.boxlh > .email > button:hover{
+    background-color: gold;
+    color: black;
+}
+.boxlh > .hotline > button:hover{
+    background-color: gold;
+    color: black;
+}
+/* XONG PHÀN CSS LIÊN HỆ  */
+/* GIỪ ĐẾN CSS ĐĂNG KÍ EMAIL */
+.dk{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 50%;
+    height: 178px;
+}
+.dk > h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    line-height: 50px;
+    margin-left: 50px;
+}
+.dk > p{
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.dk > input{
+    height: 25px;
+    font-style: italic;
+    width: 200px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+.dk > button{
+    height: 28px;
+    width: 70px;
+    border: 1px solid grey;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+.dk > button:hover{
+    background-color: gold;
+    color: black;
+}
+.cb > input{
+    margin-left: 50px;
+}
+/* CSS XONG PHẦN LIÊN HỆ */
+/* GIỪO ĐẾN PHẦN CUỐI CÙNG */
+.boxfaq{
+    height: 220px;
+    background-color: #231f20;
+    width: 100%;
+}
+.boxfaq > .hdc{
+    float: left;
+    margin-left: 50px;
+    margin-right: 60px;
+    height: 200px;
+    width: 25%;
+}
+.boxfaq > .hdc > h4{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    font-size: 13pt;
+}
+.boxfaq > .hdc > .thongtin{
+    list-style: none;
+}
+.boxfaq > .hdc > .thongtin > li{
+    display: block;
+    margin-bottom: 8px;
+}
+.boxfaq > .hdc > .thongtin > li > a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12pt;
+}
+.boxfaq > .hdc > .thongtin > li > a:hover{
+    color: gold;
+}
+/* CSS XONG 2 PHẦN ĐẦU CÓ HOVER */
+/* GIỪO ĐẾN PHẦN HỖ TRỢ KHÁCH HÀNG */
+.boxfaq > .hdc >.thongtin1{
+    list-style: none;
+}
+.boxfaq > .hdc > .thongtin1 >li{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin-bottom: 8px;
+    color: #fff;
+}
+.boxfaq > .hdc > .thongtin1 >li > a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* XONG ALL */
+/* TEST ĐỊNH DẠNG UHCHAT */
+
