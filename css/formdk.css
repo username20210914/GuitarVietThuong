@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url('../image/imgreg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+form{
+    padding-top: 30px;
+    height: 550px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px ;
+    background: rgb(0, 0, 0, 0.5) ;
+    box-shadow: 8px 8px 10px black;
+    border-radius: 5px;
+}
+form > .boxtk{
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 80%;
+    margin-bottom: 30px;
+    
+}
+h2{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    text-align: center;
+}
+form > .boxtk > input{
+    padding-left: 10px;
+    background: transparent;
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    font-size: 12pt;    
+    color: white;
+}
+input::placeholder{
+    color: white;
+    font-size: 12pt;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+}
+input:hover::placeholder{
+    color:lightblue;
+    
+}
+form > center > button{
+    height: 50px;
+    width: 90%;
+    background-color: white;
+    font-size: 12pt;
+    color: black;
+    margin-bottom: 40px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    
+}
+form > p{
+    text-align: center;
+    font-size: 12pt;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+form > center > button:hover{
+    background-color: steelblue;
+}
+form > .mxh{
+    padding-left: 140px;
+    height: 30px;
+    width: 100%;
+    
+}
+form > .boxtk > small{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10pt;
+    color: red;
+    margin-left: 10px;
+}
+.mxh > .mxh1{
+    
+    float: left;
+    height: 30px;
+    width: 35px;
+    margin-right: 10px;
+}
+.mxh1 >  img{
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    
+    
+}
+
+.mxh > .mxh1:hover{
+    transition: ease 0.5s;
+    transform: rotate(20deg);
+}

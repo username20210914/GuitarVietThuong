@@ -1,0 +1,125 @@
+body{
+    background-image: url('../image/imglogin.jpg');
+    height: 100%;
+    background-size: cover;
+    background: rgb(0, 0, 0, 2)black;
+}
+form{
+    margin-top: 70px;
+}
+.login{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    height: 400px;
+    width: 380px;
+    background: rgb(0, 0, 0, 0.5);
+    position: relative;
+    padding-top: 50px;
+    box-shadow: 8px 8px 10px black;
+}
+.login > .box1{
+    position: absolute;
+    top: 10px;
+    left: 125px;
+    height: 100px;
+    width: 120px;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box1 > img{
+    height: 100%;
+    width: 100%;
+}
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+
+    
+    
+}
+p{
+    color: black;
+    font-size: 5pt;
+    font-family: 'Open Sans', sans-serif;
+}
+.loginn{
+    width: 300px;
+    height: 40px;
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.loginn > img{
+    margin-top: 3px;
+    float: left;
+    height: 30px;
+    vertical-align: middle;
+
+}
+.loginn > input{
+    
+    background: transparent;
+    border: none;
+    outline: none;
+    height: 38px;
+    width: 240px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding-left: 10px;
+    font-size: 11pt;
+    
+}
+.loginn > input::placeholder{
+    color: white;
+    
+}
+.check > input {
+    
+    height: 12px;
+    width: 12px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.check > p{
+    display: inline-block;
+    color: white;
+    font-size: 11pt;
+    font-family: 'Open Sans', sans-serif;
+}
+button{
+    background-color: white;
+    color: black;
+    border: none;
+    height: 35px;
+    width: 300px;
+    margin-left: 40px;
+    outline: none;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    font-size: 12pt;
+    font-weight:600;
+}
+button:focus{
+    background-color: #3970b0;
+    color: black;
+}
+button:hover{
+    background-color: #3970b0;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 30px;
+}
+a:hover{
+    color: lightblue;
+    opacity: 80%;
+}

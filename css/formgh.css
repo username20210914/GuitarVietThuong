@@ -1,0 +1,215 @@
+.containergh{
+    padding-left: 30px;
+    padding-right: 30px; 
+    height: 650px;
+    width: 100%;
+}
+.containergh > .tonggh{
+    margin-top: 20px;
+    height: 600px;
+    width: 100%;
+    
+}
+.tonggh > .ghleft{
+    float: left;
+    height: 600px;
+    width: 50%;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.ghleft > h3{
+    font-size: 13pt;
+    color: #ff0000;
+    margin-bottom: 15px;
+}
+.ghleft > form > input{
+    height: 35px;
+    width: 95%;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    outline: none;
+}
+.ghleft > form > input:focus{
+    box-shadow: 0px 0px 5px #B4D5FF;
+}
+.ghleft > form > textarea{
+    min-width: 95%;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+    outline: none;
+    margin-bottom: 30px;
+}
+.ghleft > form > textarea:focus{
+    box-shadow: 0px 0px 5px #B4D5FF;
+}
+form > input::placeholder{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10pt;
+    font-style: italic;
+    
+}
+form > textarea::placeholder{
+    font-size: 10.5pt;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+}
+.ghleft > form > .checkhang >input{
+    float: left;
+    height: 15px;
+    width: 18px;
+    margin-right: 5px;
+}
+
+.ghleft > form > .checkhang > p{
+    float: left;
+    font-size: 11pt;
+    color: #333333;
+    font-weight: bold;
+}
+/* xong phần thông tin nhận hàng > đến phần giỏ hàng */
+.tonggh > .ghright{
+    float: left;
+    height: 600px;
+    width: 50%;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.tonggh > .ghright > h3{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: red;
+    font-size: 13pt;
+    margin-bottom: 5px;
+}
+.tonggh > .ghright > p{
+    text-align: center;
+    font-size: 10.5pt;
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+.ghright > table{
+    border-collapse:collapse;
+    width: 100%;
+    border: 1px solid gray;
+    margin-bottom: 30px;
+
+
+}
+
+.bang2 > td > .anhimg{
+    float: left;
+    height: 80px;
+    width: 80px;
+    
+    padding: 5px 4px 5px 4px;
+    margin-right: 5px;
+    margin-left: 15px;
+}
+.bang2 > td > .anhimg > img{
+    height: 100%;
+    width: 100%;
+}
+.bang2 > td > .chusp{
+    padding: 5px;
+    float: left;
+    height: 160px;
+    width: 120px;
+    
+}
+.bang2 > td > .chusp > p{
+    font-weight: 600;
+    font-size: 11pt;
+    font-family: 'Roboto', sans-serif;
+}
+.bang2 > .textcenter{
+    text-align: center;
+    color: red;
+    font-weight: 600;
+    font-size: 11pt;
+}
+.textcenter > input{
+    height: 30px;
+}
+.textcenter > input[type=number]{
+    text-align: center;
+    font-weight: 600;
+}
+tr > th{
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+.bang2{
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+}
+.ghright > label{
+    font-size: 11pt;
+}
+.ghright > input{
+    margin-top: 5px;
+    height: 30px;
+    width: 200px;
+    border: 1px solid gray;
+    padding-left: 10px;
+    outline: none;
+    margin-right: 5px;
+}
+.ghright > input::placeholder{
+    font-size: 10pt;
+    font-style: italic;
+}
+.ghright > input:focus{
+    box-shadow: 0px 0px 5px #B4D5FF ;
+}
+.ghright > button{
+    height: 30px;
+    width: 70px;
+    font-size: 11pt;
+    margin-bottom: 40px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: #1aaf3a;
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+.ghright > .texttong > p{
+    font-weight: 600;
+    font-size: 11pt;
+    margin-bottom: 30px;
+}
+.ghright > .texttong > i{
+    font-size: 11pt;
+}
+.ghright > .texttong > p > span{
+    color: red;
+    font-size: 11pt;
+}
+
+
+.ghright > .hoantatmuahang > button{
+    color: white;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    display: block;
+    margin-top: 25px;
+    height: 40px;
+    width: 100%;
+    background-color: #0084cb;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 100px;
+    cursor: pointer;
+    
+}
+.ghright > .hoantatmuahang > button:hover{
+    background-color:#1aaf3a ;
+}

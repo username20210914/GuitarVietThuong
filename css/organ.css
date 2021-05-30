@@ -1,0 +1,29 @@
+.organ{
+    padding: 20px 45px 20px 45px;
+}
+.organ > .chothueorgan{
+    height: 1700px;
+    background-color: white;
+}
+.organ > .chothueorgan > h3{
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    opacity: 90%;
+}
+.chothueorgan > p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11pt;
+}
+.organ > .chothueorgan > li{
+    list-style: none;
+    font-size: 13pt;
+    color: blue;
+    font-weight: bold;
+}
+.organ > .chothueorgan > h3 > a{
+    text-decoration: none;
+    color: #337ab7 ;
+}
+.organ > .chothueorgan > h3 > a:hover{
+    text-decoration: underline;
+}

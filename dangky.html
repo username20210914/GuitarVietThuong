@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="./css/formdk.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./image/logotiltle.jpg">
+    </link>
+    <!-- <script src="./js/dangki.js"></script> -->
+    <!-- <script src="./js/dangki.js"></script> -->
+</head>
+
+<body>
+    <div class="dangky">
+        <h2>Sign up</h2>
+    </div>
+    <form class="form" id="form" name="form">
+        <div class="boxtk">
+            <input id="firstname" type="text" placeholder="Username" name="firstname" onblur="isUser();"
+                onkeyup="isUser();">
+            <small id="errorname"></small>
+        </div>
+        <div class="boxtk">
+            <input id="email" type="email" placeholder="mail@example.com" name="email" onblur="isEmail();"
+                onkeyup="isEmail();">
+            <small id="erroremail"></small>
+
+        </div>
+        <div class="boxtk">
+            <input id="password" type="password" placeholder="Password" name="password" onblur="isPass();"
+                onkeyup="isPass();">
+            <small id="errorpassword"></small>
+        </div>
+        <div class="boxtk">
+            <input id="repassword" type="password" placeholder="Confirm Password" name="repassword" onblur="isPass();"
+                onkeyup="isPass();">
+            <small id="errorrepassword"></small>
+        </div>
+        <div id="error"></div>
+        <center><button onclick="Valid(); return false;">Submit</button></center>
+        <p>Fast Signup With Your Favourite Social Profile</p>
+        <div class="mxh">
+            <div class="mxh1">
+                <img src="image/fb.png" alt="">
+            </div>
+            <div class="mxh1">
+                <img src="image/gg.png" alt="">
+            </div>
+            <div class="mxh1">
+                <img src="image/ins.png" alt="">
+            </div>
+            <div class="mxh1">
+                <img src="image/tw.png" alt="">
+            </div>
+        </div>
+    </form>
+
+</body>
+
+</html>
+<script>
+    // kiểm tra User
+    function isUser() {
+        var Username = document.getElementById("firstname").value;
+        if (Username == "") {
+            document.getElementById("errorname").style.color = "red";
+            document.getElementById("errorname").innerHTML = "Username cannot be blank";
+            return false;
+        }
+        else if (Username.length < 3 || Username.length > 30) {
+            document.getElementById("errorname").style.color = "red";
+            document.getElementById("errorname").innerHTML = "Username must not be less than 3 characters";
+        }
+        else {
+            document.getElementById("errorname").style.color = "lightgreen";
+            document.getElementById("errorname").innerHTML = "Username Invalid";
+        }
+    }
+    // Kiểm tra Email
+    function isEmail() {
+        var email = document.getElementById("email").value;
+        var checkEmail = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/; 
+        if (email == "") {
+            document.getElementById("erroremail").style.color = "red";
+            document.getElementById("erroremail").innerHTML = "Email cannot be blank";
+            return false;
+        }
+        else if (checkEmail.test(email)) {
+            document.getElementById("erroremail").style.color = "lightgreen";
+            document.getElementById("erroremail").innerHTML = "Email Invalid";
+        }
+        else {
+            document.getElementById("erroremail").style.color = "red";
+            document.getElementById("erroremail").innerHTML = "Email address is not valid";
+
+        }
+    }
+    // Kiểm tra Password
+    function isPass() {
+        var password = document.getElementById("password").value;
+        var repassword = document.getElementById("repassword").value;
+
+        if (password == "") {
+            document.getElementById("errorpassword").style.color = "red";
+            document.getElementById("errorpassword").innerHTML = "Password cannot be blank";
+        }
+        else if (password.length < 6 || password.length > 30) {
+            document.getElementById("errorpassword").style.color = "red";
+            document.getElementById("errorpassword").innerHTML = "Password must not be less than 6 characters";
+        }
+        else {
+            document.getElementById("errorpassword").style.color = "lightgreen";
+            document.getElementById("errorpassword").innerHTML = "Password Invalid";
+        }
+        if (repassword == "") {
+            document.getElementById("errorrepassword").style.color = "red";
+            document.getElementById("errorrepassword").innerHTML = "Password cannot be blank";
+        }
+        else if (repassword == password) {
+            document.getElementById("errorrepassword").style.color = "lightgreen";
+            document.getElementById("errorrepassword").innerHTML = "Confirm Password Invalid";
+        }
+
+        else {
+            document.getElementById("errorrepassword").style.color = "red";
+            document.getElementById("errorrepassword").innerHTML = "Password is not correct";
+        }
+    }
+    // Nhấp submit
+    function Valid() {
+        if (isUser() == false) {
+            return;
+        }
+        if (isEmail() == false) {
+            return;
+        }
+        if (isPass() == false) {
+            return;
+        }
+        if (isrepass() == false) {
+            return;
+        }
+    }
+    // function kiemTra() {
+    //     var Username = document.getElementById("firstname").value;
+    //     var email = document.getElementById("email").value;
+    //     var password = document.getElementById("password").value;
+    //     var repassword = document.getElementById("repassword").value;
+    //     var checkEmail = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/;
+    //     if(Username==""){
+    //         document.getElementById("errorname").style.color="red";
+    //         document.getElementById("errorname").innerHTML="Username cannot be blank";
+    //     }
+    //     else if(Username.length<3 || Username.length>30){
+    //         document.getElementById("errorname").style.color="red";
+    //         document.getElementById("errorname").innerHTML="Username must not be less than 3 characters";
+    //     }
+    //     else{
+    //         document.getElementById("errorname").style.color="lightgreen";
+    //         document.getElementById("errorname").innerHTML="Username Invalid";
+    //     }
+    //     if(email==""){
+    //         document.getElementById("erroremail").style.color="red";
+    //         document.getElementById("erroremail").innerHTML="Email cannot be blank";
+    //     }
+    //     else if(checkEmail.test(email)){
+    //         document.getElementById("erroremail").style.color="lightgreen";
+    //         document.getElementById("erroremail").innerHTML="Email Invalid";
+    //     }
+    //     else{
+    //             document.getElementById("erroremail").style.color="red";
+    //             document.getElementById("erroremail").innerHTML="Email address is not valid";
+    //         }
+    //     if(password==""){
+    //         document.getElementById("errorpassword").style.color="red";
+    //         document.getElementById("errorpassword").innerHTML="Password cannot be blank";
+    //     }
+    //     else if (password.length < 6 || password.length > 30){
+    //         document.getElementById("errorpassword").style.color="red";
+    //         document.getElementById("errorpassword").innerHTML="Password must not be less than 6 characters";
+    //     }
+    //     else{
+    //         document.getElementById("errorpassword").style.color="lightgreen";
+    //         document.getElementById("errorpassword").innerHTML="Password Invalid";
+    //     }
+    //     if(repassword==""){
+    //         document.getElementById("errorrepassword").style.color="red";
+    //         document.getElementById("errorrepassword").innerHTML="Password cannot be blank";
+    //     }
+    //     else if(repassword==password){
+    //         document.getElementById("errorrepassword").style.color="lightgreen";
+    //         document.getElementById("errorrepassword").innerHTML="Confirm Password Invalid";
+    //     }
+
+    //     else{
+    //         document.getElementById("errorrepassword").style.color="red";
+    //         document.getElementById("errorrepassword").innerHTML="Password is not correct";
+    //     }
+
+    // }
+</script>

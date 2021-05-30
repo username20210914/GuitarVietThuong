@@ -1,0 +1,35 @@
+.chothuetrong{
+    padding: 20px 45px 20px 45px;
+}
+.chothuetrong > .khungtrong{
+    height: 1350px;
+    background-color: white;
+}
+.chothuetrong > .khungtrong > h3{
+    font-family: 'Roboto', sans-serif;
+    opacity: 90%;
+    line-height: 30px;
+}
+.chothuetrong > .khungtrong > li{
+    list-style: none;
+    color: blue;
+    font-weight: 600;
+    font-size: 12pt;
+    font-family: 'Roboto', sans-serif;
+}
+.chothuetrong > .khungtrong > p {
+    font-size: 11pt;
+}
+.chothuetrong > .khungtrong > .dacbiet > li{
+    margin-left: 20px;
+    text-decoration: underline;
+    list-style:disc ;
+}
+ table {
+     padding: 10px;
+    border-collapse: collapse;
+    width: 1200px;
+    height: 400px;
+    border: 1px solid gray;
+    font-size: 11pt;
+}

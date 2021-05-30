@@ -1,0 +1,51 @@
+
+.containern{
+    padding: 20px 45px 20px 45px;
+}
+.containern > .khungtext{
+    height: 2300px;
+    background-color: white;
+}
+.containern > .khungtext > h3{
+    line-height: 50px;
+    font-family: 'Roboto', sans-serif;
+    opacity: 90%;
+}
+.containern > .khungtext > li{
+    list-style: none;
+    text-decoration: underline;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+}
+.containern > .khungtext > p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 11pt;
+}
+.containern > .khungtext > .chothuenganhan{
+    margin-left: 30px;
+}
+.containern > .khungtext > .chothuepianodiennganhan{
+    margin-left: 30px;
+}
+.containern > .khungtext > .chothuee{
+    margin-left: 30px;
+}
+.khungtext > .chothuee > li{
+    font-size: 11pt;
+}
+.containern > .khungtext > .choothue{
+    margin-left: 30px;
+}
+.containern > .khungtext > h3 > a{
+    text-decoration: none;
+}
+.containern > .khungtext > li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 11pt;
+}
+.containern > .khungtext > h4{
+    font-family: 'Roboto', sans-serif;
+}
+.containern > .khungtext > h3 > a:hover{
+    text-decoration: underline;
+}

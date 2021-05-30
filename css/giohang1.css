@@ -1,0 +1,235 @@
+
+.containergio{
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.containergio > .boxall{
+    height: 1310px;
+    width: 100%;
+    margin-top: 50px;
+    
+}
+/* css boxsp hình ảnh sản phẩm */
+.boxall > .boxsanpham{
+    float: left;
+    height: 600px;
+    width: 50%;
+    
+}
+.boxsanpham > .boxsanpham1{
+    
+    height: 450px;
+    width: 100%;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.boxsanpham > .boxsanpham1 > img{
+    height: 100%;
+    width: 100%;
+
+}
+/* CSS JS IMG */
+.boxsanpham > .boxtextsp{
+    padding-top: 10px;
+
+    padding-left:10px ;
+    height: 150px;
+    width: 100%;
+   
+}
+.boxtextsp > .jsimg{
+    margin-left: 5px;
+    float: left;
+    height: 130px;
+    width: 120px;
+    
+    
+}
+.jsimg > img{
+    height: 100%;
+    width: 100%;
+}
+/* XONG PHẦN JSIMG  > GIỪO ĐẾN INFO SẢN PHẨM*/ 
+.boxall > .boxinfosp{
+    float: left;
+    height: 600px;
+    width: 50%;
+    
+}
+
+.boxinfosp >.boxtextinfo{
+    
+    padding-left: 5px;
+    height: 450px;
+    width: 100%;
+}
+.boxinfosp > .boxtextinfo > .checksao{
+    height: 30px;
+    width: 100%;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.checksao > .sao1:hover{
+    background-color: yellow;
+}
+.checksao > i{
+    font-size: 11pt;
+    line-height: 30px;
+}
+.checksao > .sao1{
+    float: left;
+    height: 30px;
+    width: 5%;
+    
+    margin-right: 1%;
+}
+.sao1 > a > img{
+    height: 100%;
+    width: 100%;
+}
+.boxtextinfo > p{
+    font-size: 16pt;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+
+}
+.boxtextinfo > i{
+    font-size: 11pt;
+}
+.boxtextinfo > i > span{
+    color: forestgreen;
+}
+.boxtextinfo > label{
+    font-size: 11pt;
+}
+.boxtextinfo > input{
+    height: 25px;
+    width: 70px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.boxtextinfo > input[type="number"]{
+    text-align: center;
+    font-size: 10pt;
+    font-weight: bold;
+}
+.boxtextinfo > .boxquatang{
+    height: 150px;
+    width: 100%;
+    margin-top: 20px;
+
+}
+.boxquatang > label{
+    font-size: 12pt;
+    color: red;
+    font-weight: 600;
+    
+}
+.boxquatang > ul{
+    list-style-image: url(image/tick1.png);
+    padding-left: 50px;
+    vertical-align: middle;
+    
+}
+.boxquatang > ul > li{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.boxquatang > ul > li > a{
+    text-decoration: none;
+    color: black;
+    font-size: 10pt;
+}
+.boxtextinfo > .boxdoihang{
+    width: 100%;
+    height: 100px;
+    
+    border:2px solid gray ;
+    border-radius: 5px;
+    padding-top: 15px;
+}
+.boxdoihang > ul{
+    padding-left: 50px;
+}
+.boxdoihang > ul > li > a{
+    text-decoration: none;
+    color: black;
+    font-size: 11pt;
+    font-weight: 600;
+}
+.boxtextinfo > li{
+    list-style: none;
+    color: red;
+    font-size: 13pt;
+    font-weight: 600;
+}
+
+.boxinfosp > .thanhtoan{
+    height: 150px;
+    width: 100%;
+    
+}
+.thanhtoan > .thanhtoan1{
+    padding-top: 15px;
+    width: 100%;
+    height: 70px;
+    background-color: #399eec;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.thanhtoan1 > p{
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    line-height: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 10.5pt;
+}
+.thanhtoan1:hover{
+    box-shadow: 0px 0px 15px gray;
+    background-color: #f59000;
+}
+/* xong phần trên giừo đến phần kĩ thuật số */
+.boxall > .thongtinkt{
+    height: 30px;
+    width: 100%;
+    background-color: grey;
+    float: left;
+    margin-top: 20px;
+}
+.boxall > .thongtinkt1{
+    float: left;
+    height: 300px;
+    width: 100%;
+    
+    margin-bottom: 5px;
+}
+.thongtinkt1 > h4{
+    font-size: 13pt;
+    line-height: 40px;
+    color: #d7291d;
+}
+.thongtinkt1 > p{
+    font-size: 11pt;
+    margin-bottom: 5px;
+}
+.boxall > .thongtinkt2{
+    float: left;
+    width: 100%;
+    height: 250px;
+    
+}
+.thongtinkt2 > label{
+    font-size: 11pt;
+}
+.thongtinkt2 > p{
+    font-size: 11pt;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,55 @@
+/* Moblie width < 740px */
+@media screen and (max-width: 739px) {
+  :root {
+    --header-height: 35px;
+  }
+
+  header {
+    height: var(--header-height);
+    /* width: 100%; */
+    /* display: flex; */
+  }
+
+  header .infoleft {
+    margin: 0;
+  }
+
+  header .menu {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  header .menu > li {
+    margin: 0;
+  }
+
+  .infocenter,
+  .inforight {
+    display: none;
+  }
+
+  .infoleft {
+    /* flex-wrap: wrap;
+    justify-content: space-around; */
+  }
+
+  /* REPONSIVE NAV */
+  nav {
+    height: 35px;
+  }
+
+  .logovt > a > img {
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+
+  .vmenu {
+    flex-wrap: wrap;
+  }
+
+  .banner,
+  .serch {
+    display: none;
+  }
+}

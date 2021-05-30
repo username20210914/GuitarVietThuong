@@ -1,0 +1,38 @@
+.sk{
+    padding: 20px;
+}
+.sk > .sk1{
+    height: 2450px;
+    background-color: white;
+}
+.sk > .sk1 > .boxsk1{
+    float: left;
+    height: 450px;
+    width: 550px;
+    background-color:  #e6e7e8;
+    margin-right: 20px;
+    margin-left: 60px;
+    margin-bottom: 40px;
+}
+.sk > .sk1 > .boxsk1 > a > img{
+    width: 100%;
+    height: 65%;
+}
+.sk > .sk1 > .boxsk1 > .textk > a {
+    text-decoration: none;
+    color: black;
+    font-size: 13pt;
+    border-bottom: 1px solid #ddd;
+    display: block;
+    margin-left: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+.sk > .sk1 > .boxsk1 > .textk > a:hover{
+    text-decoration: underline;
+}
+.sk > .sk1 > .boxsk1 > .textk > p{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10pt;
+}

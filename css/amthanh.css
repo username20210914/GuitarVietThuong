@@ -1,0 +1,92 @@
+.containerxxx{
+    padding: 20px;
+}
+.containerxxx > .athanh{
+    background-color: white;
+    height: 1570px;
+    position: relative;
+    top: 280px;
+    border: 1px solid white;
+}
+.containerxxx > .athanh > h3{
+    font-size: 20pt;
+    line-height: 70px;
+    text-decoration: underline;
+}
+/* CSS XONG PHẦN CHỮ > GIỪ ĐẾN SẢN PHẨM ÂM THANH */
+.containerxxx > .athanh > .amtha{
+    float: left;
+    height: 460px;
+    width: 300px;
+    background-color: white;
+    
+    border: 1px solid gray;
+    margin-right: 50px;
+    margin-left: 75px;
+    margin-bottom: 50px;
+}
+.containerxxx > .athanh > .amtha >img{
+    width: 100%;
+    height: 70%;
+    margin-bottom: 5px;
+    border-bottom: 1px solid gray;
+}
+.containerxxx > .athanh > .amtha > a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin-left: 5px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.containerxxx > .athanh > .amtha > li{
+    list-style: none;
+    color: red;
+    font-weight: 600;
+    font-size: 11pt;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.containerxxx > .athanh > .amtha > p{
+    margin-left: 5px;
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10.5pt;
+}
+/* CSS XONG GIỪO ĐẾN PHẦN NOTE */
+.containerxxx > .notexxx{
+    height: 250px;
+    background-color:  #e6e7e8;
+    position: relative;
+    top: 280px;
+    margin-bottom: 270px;
+}
+.containerxxx > .notexxx >.canb{
+    height: 220px;
+    width: 95%;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    background-color:  #e6e7e8;
+}
+.canb > b{
+    font-family:'Roboto', sans-serif; 
+    font-size: 12pt;
+}
+.canb > p{
+    font-family:'Roboto', sans-serif; 
+    font-size: 11pt;
+}
+.containerxxx > .notexxx >.canb > .ima{
+    position: absolute;
+    left: 200px;
+    height: 120px;
+    width: 70%;
+    background-color: red;
+}
+.containerxxx > .notexxx >.canb > .ima > img{
+    height: 100%;
+    width: 100%;
+}

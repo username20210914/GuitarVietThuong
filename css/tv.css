@@ -1,0 +1,43 @@
+.tv{
+    padding: 20px;
+}
+.tv > .tv1{
+    height: 2150px;
+    background-color: white;
+}
+.tv > .tv1 > h3{
+    margin-left: 10px;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15pt;
+    display: block;
+    margin-bottom: 15px;
+}
+.tv > .tv1 > h4{
+    margin-left: 10px;
+    line-height: 20px;
+    font-size: 15pt;
+    margin-bottom: 20px;
+}
+.tv > .tv1 .boxtv{
+    float: left;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    margin-right: 15px;
+    margin-left: 12px;
+    margin-bottom: 40px;
+}
+.tv > .tv1 .boxtv > a > img{
+    width: 100%;
+    height: 65%;
+}
+.tv > .tv1 .boxtv > a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10pt;
+}
+.tv > .tv1 .boxtv > a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,31 @@
+.container2{
+    padding: 40px 60px 0px 60px;
+}
+.container2 > h3{
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.container2 > h2{
+    font-family: 'Roboto', sans-serif;
+}
+.container2 > p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 11pt;
+}
+.container2 > h4{
+    color: rgb(255, 169, 8);
+}
+.container2 > h1{
+    font-size: 18pt;
+    line-height: 50px;
+    color: rgb(255, 169, 8);
+    font-family: 'Roboto', sans-serif;
+}
+
+.container2 > .gt > li{
+    margin-left: 50px;
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11pt;
+}

@@ -1,0 +1,89 @@
+.containerxx{
+    padding: 20px;
+}
+.containerxx > .khungx{
+    height: 1700px;
+    background-color: white;
+    border: 1px solid white;
+    position: relative;
+    top: 280px;
+}
+.containerxx > .khungx > h3{
+    font-size: 20pt;
+    line-height: 70px;
+    text-decoration: underline;
+    font-family: 'Roboto', sans-serif;
+}
+.containerxx > .khungx > .trong{
+    float: left;
+    height: 500px;
+    width: 350px;
+    background-color: white;
+    border: 1px solid grey;
+    margin-right: 45px;
+    margin-left: 38px;
+    margin-bottom: 50px;
+}
+.containerxx > .khungx > .trong >img{
+    height: 70%;
+    width: 100%;
+    margin-bottom: 5px;
+    border-bottom: 1px solid gray;
+
+}
+.containerxx > .khungx > .trong > a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.containerxx > .khungx > .trong > a:hover{
+    text-decoration: underline;
+}
+.containerxx > .khungx > .trong > li{
+    margin-top: 10px;
+    list-style: none;
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 11pt;
+    margin-left: 5px;
+}
+.khungx > .trong > p{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11pt;
+}
+/* CSS XONG PHẦN SẢN PHẨM TRỐNG GIỪO ĐẾN NOTE */
+.notex{
+    width: 100%;
+    height: 350px;
+    background-color: #e6e7e8;
+    position: relative;
+    top: 280px;
+    margin-bottom: 290px;
+}
+.notex > .canlex{
+    width: 95%;
+    height: 300px;
+    background-color:  #e6e7e8;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.canlex > p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 11pt;
+}
+.canlex > li > a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11pt;
+}
+.notex > .canlex > li > a:hover{
+    color: blue;
+}
+/* CSS XONG PHẦN NOTE GIỪO ĐẾN PHẦN LIÊN HỆ */
